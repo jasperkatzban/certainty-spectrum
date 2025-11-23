@@ -24,7 +24,7 @@ function preload() {
 function setup() {
   createCanvas(DIMENSIONS.x, DIMENSIONS.y)
   flex({
-    container: { padding: "3rem" },
+    container: { customBoxModel: true },
     canvas: {
       fit: CONTAIN
     }
